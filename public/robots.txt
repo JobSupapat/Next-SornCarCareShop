@@ -1,0 +1,27 @@
+# public/robots.txt
+
+# Allow all search engines and AI Crawlers (AEO Engine Strategy)
+User-agent: *
+Allow: /
+
+# Specifically Allow AI Search Bots for PsyberLink AEO Engine
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Disallow Private API Routes
+Disallow: /api/
+
+# Sitemap Location
+Sitemap: https://sorncarcareshop.com/sitemap.xml
